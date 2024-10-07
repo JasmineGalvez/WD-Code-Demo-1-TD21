@@ -1,7 +1,7 @@
 * {
-    margin: 12;
+    margin: 0;
     box-sizing: border-box;
-    padding: 5;
+    padding: 0;
 }
 
 * {
@@ -29,9 +29,10 @@ text-align: center;
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: xxx-large;
 color: white;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+font-family:monospace;
+padding: 3rem;
 }
 
 h2 {
@@ -44,10 +45,18 @@ h2 {
 h3 {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(71, 71, 71);
+    padding: 1rem;
     font-size: medium;
-    background-color: #dd9ace;
-    border-radius: 10px 10px;
-    margin: 0rem 3rem;
+    background-color: #db9add;
+    border-radius: 60px;
+    margin: 0rem 10rem;
+}
+
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #db9add;
+    font-size: medium;
+    margin: 12px;
 }
 
 .btn {
@@ -58,32 +67,62 @@ h3 {
 .skills{
     * {background-color: rgb(53, 53, 53);}
     h3 {
-        font-size: medium;
-        color: #dd9ace;}
+        font-size: large;
+        color: #db9add;}
+    p {justify-content: flex-end;
+        font-size: x-large;
+        font-family: monospace;
+        font-style: italic;}
     display: flex;
     justify-content: center;
     background-color: rgb(53, 53, 53);
     border: solid #ffffff;
-    border-width: 3px 0px;
+    border-width: 5px 5px;
     padding: 2rem;
+    border-radius: 100px;
+    margin: 15px 15px;
 }
 
 .aboutme {
-    * {background-color: #dd9ace;
+    * {background-color: #db9add;
     font-family: 'Courier New', Courier, monospace;}
-    background-color: #dd9ace;
+    background-color: #db9add;
     border: solid #ffffff;
     h1 {color: rgb(27, 27, 27);}
     border-width: 3px 0px;
+    padding: 2rem;
+    margin: 12px 0px;
 }
 
 .educ {
     * {background-color: rgb(0, 0, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
         background-color: rgb(0, 0, 0);
-        border-width: 10px 0px;
+        border-width: 20px 20px;
         border: solid #ffffff;
         padding: 40px 0;
         justify-content: flex-end;
         align-items: flex-end;
+        padding: 3rem;
+        margin: 12px 8px;
+        border-radius: 20px;
+}
+
+.gallery {
+    * {background-color: rgb(65, 65, 65);
+    font-family: 'Courier New', Courier, monospace;}
+    h3 {color: #ead2ff;
+    font-size: large;
+    border: solid #000000;
+    border-width: 9px 9px;
+    border-radius: 50px;
+    background-color:#000000;}
+    background-color: rgb(65, 65, 65);
+    border-width: 10px 0px;
+    border: solid #db9add;
+    padding: 40px 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 3rem;
+
 }
