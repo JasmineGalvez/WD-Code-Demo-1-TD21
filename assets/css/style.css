@@ -1,7 +1,7 @@
 * {
     margin: 12;
-    padding: 10;
     box-sizing: border-box;
+    padding: 5;
 }
 
 * {
@@ -10,21 +10,44 @@ background-color: #ead2ff;
 text-align: center;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    img {padding-top: 50px;}
+    a {font-size: medium;
+    text-decoration: none;}
+}
+
+.bookmark1 {
+    img {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+}
+
 h1 {
     font-size: xx-large;
 color: white;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+h2 {
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.hero, img {
-    display: inline;
-    justify-content: flex-start;
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(71, 71, 71);
+    font-size: medium;
+    background-color: #dd9ace;
+    border-radius: 10px 10px;
+    margin: 0rem 3rem;
 }
 
 .btn {
@@ -32,19 +55,35 @@ nav {
     padding: 3rem 3rem;
 }
 
-.Skills{
+.skills{
     * {background-color: rgb(53, 53, 53);}
-    h3 {color: #dd9ace;
-        }
+    h3 {
+        font-size: medium;
+        color: #dd9ace;}
+    display: flex;
+    justify-content: center;
     background-color: rgb(53, 53, 53);
     border: solid #ffffff;
-    border-width: 3px 3px;
+    border-width: 3px 0px;
+    padding: 2rem;
 }
 
 .aboutme {
-    * {background-color: #dd9ace;}
+    * {background-color: #dd9ace;
+    font-family: 'Courier New', Courier, monospace;}
     background-color: #dd9ace;
     border: solid #ffffff;
     h1 {color: rgb(27, 27, 27);}
-    border-width: 8px 8px;
+    border-width: 3px 0px;
+}
+
+.educ {
+    * {background-color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        background-color: rgb(0, 0, 0);
+        border-width: 10px 0px;
+        border: solid #ffffff;
+        padding: 40px 0;
+        justify-content: flex-end;
+        align-items: flex-end;
 }
